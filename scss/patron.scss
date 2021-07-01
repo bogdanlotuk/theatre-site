@@ -1,0 +1,171 @@
+.patron {
+    .container-fluid {
+        padding: 0 170px;
+    }
+    &__inner {
+        margin: 0 auto;
+        padding: 120px 0 80px;
+        max-width: 1110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 65px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-bottom: 100px;
+    }
+    &__general {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+    &__info {
+        max-width: 255px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 25px;
+    }
+    &__info-phone {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    &__info-phone-link {
+        
+    }
+    &__info-address {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    &__info-address-mail {}
+    &__info-address-location {}
+
+    &__info-phone-link,
+    &__info-address-mail,
+    &__info-address-location {
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    }
+    &__info-phone-link:hover,
+    &__info-address-mail:hover,
+    &__info-address-location:hover {
+        color: inherit;
+    }
+    &__mailing {
+        width: 730px;
+    }
+    &__mailing-form {
+        
+    }
+}
+.container-fluid {
+}
+.form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 180px 180px 310px;
+    grid-template-rows: 35px 35px 60px;
+    gap: 30px;
+    &__name {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+    &__company {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+    }
+    &__phone {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+    &__email {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+    &__textarea {
+        grid-row: 1 / 3;
+        grid-column: 3 / 4;
+        width: 310px;
+        height: 100px;
+        resize: none;
+    }
+    &__textarea,
+    &__name,
+    &__company,
+    &__phone,
+    &__email {
+        padding: 10px 15px;
+        border: none;
+        outline: none;
+        background-color: #444444;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 150%;
+        color: #fff;
+        text-transform: capitalize;
+        
+    }
+    &__textarea::placeholder,
+    &__name::placeholder,
+    &__company::placeholder,
+    &__phone::placeholder,
+    &__email::placeholder {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 150%;
+        color: #989898;
+        text-transform: capitalize;
+        
+    }
+    &__text {
+        grid-row: 3 / 4;
+        grid-column: 1 / 3;
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #989898;
+    }
+    &__btn {
+        grid-row: 3 / 4;
+        grid-column: 3 / 4;
+        justify-self: flex-end;
+        margin-top: 10px;
+        width: 190px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: #D1A954;
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #fff;
+        cursor: pointer;
+    }
+}

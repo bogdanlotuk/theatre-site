@@ -1,0 +1,53 @@
+.partners {
+    .container-fluid {
+        padding: 0 170px;
+    }
+    &__inner {
+        margin: 0 auto;
+        max-width: 1110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 65px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-bottom: 100px;
+    }
+    &__slider {
+        // max-width: 1110px;
+        // max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        width: 100%;
+        // padding-left: 150px;
+    }
+
+    .swiper-container {
+        // max-width: 1110px;
+        width: 100%;
+    }
+    .swiper-wrapper {
+    }
+    .swiper-slide {
+        &__link {}
+        &__inner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__img {}
+    }
+    .card {
+        background-color: inherit;
+        border: none;
+    }
+}
+

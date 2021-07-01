@@ -1,0 +1,79 @@
+.about-theatre {
+    .container-fluid {
+        padding: 0 170px;
+    }
+    &__inner {
+        margin: 0 auto;
+        padding: 150px 0;
+        max-width: 1110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 65px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-bottom: 100px;
+    }
+    &__general {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    &__best {}
+    &__best-title {
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 29px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+    &__best-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    &__numbers {
+        min-width: 255px;
+    }
+    &__numbers-title {
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 29px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+    &__numbers-description {}
+    &__numbers-img {
+        margin-bottom: 15px;
+        
+    }
+    &__numbers-text {
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+    }
+    &__landscape {
+        min-width: 350px;
+    }
+    &__landscape-img {
+        
+    }
+}
+
