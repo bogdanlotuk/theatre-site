@@ -1,8 +1,6 @@
 .header {
-    
     .container-fluid {
-        background: url(../img/header__bg.jpg) no-repeat center;
-        background-size: cover;
+        background: center / cover no-repeat url(../img/header__bg.jpg);
     }
     &__top-inner {
         margin: 0 auto;
@@ -13,9 +11,6 @@
     &__top {
         padding: 51px 170px;
     }
-    &__navigation {}
-    &__menu {}
-    &__phone {}
     &__phone-link {
         font-family: 'Open Sans Condensed';
         font-style: normal;
@@ -49,9 +44,7 @@
         justify-content: flex-start;
         align-items: flex-start;
         padding-left: 0;
-        // max-width: 540px;
         margin: 250px 0 365px;
-        
     }
     &__center-title {
         font-family: 'Open Sans Condensed';
@@ -64,7 +57,7 @@
         margin-bottom: 50px;
     }
     &__center-text {
-        font-family: Open Sans;
+        font-family: 'Open Sans';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -103,8 +96,6 @@
     .swiper-container {
         width: 370px;
     }
-    .swiper-header {
-    }
     .swiper-wrapper{
         position: relative;
     }
@@ -119,39 +110,30 @@
         display: flex;
         justify-content: space-between;
         height: 25px;
+        &-svg {
+            fill: #c4c4c4;
+        }
+        &-svg:hover {
+            fill: #fff;
+        }
         &-prev {
-            // display: block;
-            // position: static;
+            background-color: transparent;
             border: none;
             width: 108px;
             height: 25px;
-            background: url(../img/prev-arrow.svg) no-repeat center;
         }
         &-next {
-            position: static;
+            background-color: transparent;
             border: none;
             width: 108px;
             height: 25px;
-            background: url(../img/next-arrow.svg) no-repeat center;
-            // display: block;
         }
-    }
-    .swiper-wrapper {
-    }
-    .swiper-slide {
-            &__link {}
-            &__inner {}
-            &__img {}
     }
     .card {
         border: none;
         background: transparent;
     }
-    .img-fluid {
-    }
-    
 }
-
 .menu-list {
     padding-left: 0;
     display: flex;
@@ -184,8 +166,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    
+    align-items: center;    
 }
 .contacts {
     padding-top: 16%;
@@ -223,5 +204,13 @@
     &__socials-link {
         margin-bottom: 30px;
     }
-    &__socials-img {}
+    &__socials-link:hover {
+        svg {
+            transition: all 0.3s ease-out;
+            fill: #D1A954;
+        }
+    }
+    &__socials-img {
+        fill: rgba(255, 255, 255, 0.6);
+    }
 }

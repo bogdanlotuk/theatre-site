@@ -3,8 +3,7 @@
         margin: 150px auto;
         padding: 126px 190px;
         max-width: 1110px;
-        background: url(../img/award__bg.jpg) no-repeat center;
-        background-size: cover;
+        background: center / cover no-repeat url(../img/award__bg.jpg);
         display: flex;
         justify-content: center;
         align-items: center;

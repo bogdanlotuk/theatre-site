@@ -12,7 +12,7 @@
         align-items: center;
     }
     &__title {
-        font-family: "Open Sans Condensed";
+        font-family: 'Open Sans Condensed';
         font-style: normal;
         font-weight: 300;
         font-size: 48px;
@@ -26,7 +26,6 @@
         align-items: flex-start;
         justify-content: space-between;
         width: 100%;
-
     }
     &__info {
         max-width: 255px;
@@ -40,17 +39,11 @@
         flex-direction: column;
         gap: 25px;
     }
-    &__info-phone-link {
-        
-    }
     &__info-address {
         display: flex;
         flex-direction: column;
         gap: 25px;
     }
-    &__info-address-mail {}
-    &__info-address-location {}
-
     &__info-phone-link,
     &__info-address-mail,
     &__info-address-location {
@@ -70,11 +63,6 @@
     &__mailing {
         width: 730px;
     }
-    &__mailing-form {
-        
-    }
-}
-.container-fluid {
 }
 .form {
     width: 100%;
