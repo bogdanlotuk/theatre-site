@@ -26,7 +26,6 @@
         justify-content: space-between;
         gap: 30px;
     }
-    &__best {}
     &__best-title {
         font-family: "Open Sans Condensed";
         font-style: normal;
@@ -56,10 +55,8 @@
         text-transform: uppercase;
         margin-bottom: 40px;
     }
-    &__numbers-description {}
     &__numbers-img {
-        margin-bottom: 15px;
-        
+        margin-bottom: 15px;        
     }
     &__numbers-text {
         font-family: "Open Sans Condensed";
@@ -71,9 +68,6 @@
     }
     &__landscape {
         min-width: 350px;
-    }
-    &__landscape-img {
-        
     }
 }
 
